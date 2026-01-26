@@ -1,14 +1,14 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
-const onboadring = () => {
+const MovieDetails = () => {
   return (
     <View>
-      <Text>onboadring</Text>
+      <Text>Movie details</Text>
     </View>
   )
 }
 
-export default onboadring
+export default MovieDetails
 
 const styles = StyleSheet.create({})
