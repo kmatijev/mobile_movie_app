@@ -12,7 +12,7 @@ export default function Index() {
   const router = useRouter(); // Hook!!! -> use keyword
 
   const { 
-    data : movies, 
+    data : movies,  
     loading: moviesLoading, 
     error: moviesError
   } = useFetch(() => fetchMovies({
